@@ -31,19 +31,19 @@ function MyApp({ Component, pageProps }: any) {
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <title>{`${about.fullName} - ${about.role}` || 'Portfolio'}</title>
-        <meta name='description' content='Yaasiin AYEVA, Young Togolese Software Developer. A kind and serious man.' />
+        <meta name='description' content='Brandon Josue Rodriguez Ventura, Joven Desarrollador de Software. Una persona seria y amable.' />
         <meta name='keywords' content={`Software Developer, Software Development, Portfolio, ${skills.join(', ')}, ${about.fullName}, ${about.role}`} />
-        <meta name='author' content='Yaasiin AYEVA' />
+        <meta name='author' content='Brandon Josue Rodriguez Ventura' />
         <meta name='robots' content='index, follow' />
         <meta property="og:title" content={`${about.fullName} - ${about.role}` || 'Portfolio'} />
-        <meta property="og:description" content="Yaasiin AYEVA, Young Togolese Software Developer. A kind and serious man." />
+        <meta property="og:description" content="Brandon Josue Rodriguez Ventura, Joven Desarrollador de Software. Una persona seria y amable." />
         <meta property="og:image" content="https://yaasiin-dev.vercel.app/favicon.ico" />
         <meta property="og:url" content="https://yaasiin-dev.vercel.app" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${about.fullName} - ${about.role}` || 'Portfolio'} />
-        <meta name="twitter:description" content="Yaasiin AYEVA, Young Togolese Software Developer." />
+        <meta name="twitter:description" content="Brandon Josue Rodriguez Ventura, Joven Desarrollador de Software." />
         <meta name="twitter:image" content="https://yaasiin-dev.vercel.app/favicon.ico" />
         <link rel="canonical" href="https://yaasiin-dev.vercel.app" />
         <script type="application/ld+json">
@@ -51,14 +51,13 @@ function MyApp({ Component, pageProps }: any) {
             {
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Yaasiin AYEVA",
+              "name": "Brandon Josue Rodriguez Ventura",
               "jobTitle": "Software Developer and DevOps Engineer",
               "url": "https://yaasiin-dev.vercel.app",
               "image": "https://yaasiin-dev.vercel.app/favicon.ico",
-              "description": "Yaasiin AYEVA, Young Togolese Software Developer. A kind and serious man.",
+              "description": "Brandon Josue Rodriguez Ventura, Joven Desarrollador de Software. Una persona seria y amable.",
               "sameAs": [
-                ${about.social.github ? `"${about.social.github}"` : ''},
-                ${about.social.stackoverflow ? `"${about.social.stackoverflow}"` : ''}
+                ${about.social.github ? `"${about.social.github}"` : ''}
               ]
             }
           `}
