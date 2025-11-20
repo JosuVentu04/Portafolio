@@ -28,7 +28,6 @@ const projects = [
        El objetivo principal es automatizar y controlar todo el proceso de venta a crédito, garantizando seguridad, trazabilidad y una operación más rápida tanto para vendedores como para administradores.`,
     ],
     stack: ['Python', 'Flask', 'SQLAlchemy', 'React.js', 'HTML', 'CSS', 'Bootstrap'],
-    livePreview: 'Pendiente',
     sourceCode: 'https://github.com/JosuVentu04/dashboard-react',
   },
   {
@@ -40,7 +39,6 @@ const projects = [
       clientes con funcionalidades como envío de correos de confirmación, vistas informativas y localización mediante Google Maps.`,
     ],
     stack: ['Python', 'Flask', 'SQLAlchemy', 'React.js', 'HTML', 'CSS', 'Bootstrap'],
-    livePreview: 'pendiente',
     sourceCode: 'https://github.com/JosuVentu04/GastroClick-Project',
   },
   {
@@ -79,7 +77,7 @@ const contact = {
 const contacts = [
   {
     name: 'Email',
-    link: 'mailto:venturajosue711@gmail.com',
+    link: 'https://mail.google.com/mail/?view=cm&fs=1&to=venturajosue711@gmail.com',
     icon: 'fas fa-envelope',
   },
   {

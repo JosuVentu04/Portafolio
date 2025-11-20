@@ -54,7 +54,7 @@ const About = () => {
           {resume && (
             <a href={resume} target='_blank' rel='noreferrer'>
               <span role='button' className='btn btn--outline'>
-                View my CV
+                Mira mi CV
               </span>
             </a>
           )}

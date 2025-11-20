@@ -9,7 +9,6 @@ import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import ScrollToTop from '../components/ScrollToTop'
 import Footer from '../components/Footer'
-import BrevoChat from "@/components/BrevoChat"
 
 function App() {
   const [isMounted, setIsMounted] = useState(false)
@@ -41,7 +40,6 @@ function App() {
           <Contact />
           <Analytics />
           <SpeedInsights />
-          <BrevoChat />
         </div>
       </main>
 
