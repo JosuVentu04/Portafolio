@@ -1,15 +1,14 @@
 const about = {
   name: 'Brandon',
   fullName: 'Brandon Josue Rodriguez Ventura',
-  role: 'Desarrollador de Software',
+  role: 'Desarrollador de Software Front End',
   company: '',
   description: [
-    `Desarrollador Fullstack con formación en JavaScript, Python, React y Flask, orientado a la creación de soluciones web dinámicas, 
-     seguras y escalables. Poseo experiencia desarrollando interfaces intuitivas y APIs robustas, aplicando buenas prácticas de desarrollo y 
-     control de versiones con Git. Destaco por mi capacidad de aprendizaje autónomo, pensamiento analítico y enfoque en la experiencia 
-     del usuario. He trabajado en equipos ágiles, desarrollando proyectos completos desde el frontend hasta la lógica del backend, 
-     integrando bases de datos relacionales y autenticación con JWT. Busco oportunidades para crecer profesionalmente y aportar valor en 
-     proyectos tecnológicos con impacto real. 
+    `Desarrollador FrontEnd con formación en JavaScript, Python, React y Flask, orientado a la creación de soluciones web dinámicas, seguras y escalables. Aunque cuento con experiencia desarrollando APIs y lógica backend, decidí especializarme en el área de Frontend, donde puedo combinar análisis, diseño y funcionalidad para crear interfaces intuitivas y eficientes.
+
+Domino buenas prácticas de desarrollo, control de versiones con Git y la construcción de aplicaciones modernas basadas en componentes. Me caracterizo por mi aprendizaje autónomo, pensamiento analítico y enfoque en la experiencia del usuario.
+
+He trabajado en equipos ágiles y en proyectos completos, integrando sistemas de autenticación, consumo de APIs y bases de datos, lo que me permite entender el panorama completo de una aplicación. Actualmente busco oportunidades para crecer profesionalmente y aportar valor en proyectos tecnológicos con impacto real desde el Frontend.
      `,
   ],
   resume: '/documents/CVJosue.pdf',
@@ -52,7 +51,7 @@ const projects = [
       personajes, planetas y vehículos del universo Star Wars, consumiendo datos dinámicamente desde la API pública SWAPI.`,
     ],
     stack: ['React.js', 'HTML', 'CSS', 'Bootstrap'],
-    livePreview: 'https://iroko-group.com/',
+    livePreview: 'https://starwarsproject-five.vercel.app/',
     sourceCode: 'https://github.com/JosuVentu04/StarWarsBlog-Project',
   },
 ]

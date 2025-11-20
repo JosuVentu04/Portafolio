@@ -18,14 +18,14 @@ const About = () => {
 
       {firstName && (
         <h1 className='about__greeting animate__animated animate__fadeInUp animate__delay-1s'>
-          Hey, I&apos;m <span className='text--strong'>{firstName}</span>.
+           Hola, soy <span className='text--strong'>{firstName}</span>.
           {greetingEmoji && <span> {greetingEmoji}</span>}
         </h1>
       )}
 
       {role && (
         <h1 className='about__role animate__animated animate__fadeInUp animate__delay-3s'>
-          I&apos;m a {role}
+          Y soy {role}
           {company && (
             <span>
               {' '}
@@ -84,18 +84,6 @@ const About = () => {
                   <FaLinkedin className='about___social___ico' />
                 </a>
               )} */}
-
-              {social.stackoverflow && (
-                <a
-                  href={social.stackoverflow}
-                  target='_blank'
-                  rel='noreferrer'
-                  aria-label='stackoverflow'
-                  className='link link--icon'
-                >
-                  <FaStackOverflow className='about___social___ico' />
-                </a>
-              )}
             </>
           )}
         </div>
